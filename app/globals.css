@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --ijoroyo: #225E3D;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+}
+
+body {
+  background-image: url('/assets/bg.png');
+  background-size: cover;
+  color: var(--background);
+}
+
