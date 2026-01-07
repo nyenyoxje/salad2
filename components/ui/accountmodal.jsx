@@ -40,7 +40,7 @@ export default function AccountModal({ onClose }) {
             <p>{userEmail}</p>
           </div>
         ) : (
-          <p className="text-gray-700 mb-6">Anda belum login</p>
+          <p className="text-gray-700 mb-6">Anda Belum Login</p>
         )}
 
         <div className="flex justify-end">

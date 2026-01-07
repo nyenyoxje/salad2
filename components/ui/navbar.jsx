@@ -85,7 +85,7 @@ export default function NavbarDock() {
     >
       <Dock items={items} panelHeight={68} baseItemSize={50} magnification={70} />
     </div>
-     {showCart && <CartModal onClose={() => setShowCart(false)} />}
+      {showCart && <CartModal onClose={() => setShowCart(false)} />}
       {showAccount && <AccountModal onClose={() => setShowAccount(false)} />}
       </>
   );
